@@ -1,0 +1,61 @@
+body{
+    background: url("/bg.jpg") ;
+    font-size: x-large;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    font-weight: 10px;  
+}
+
+
+input{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 12px 0px 12px 0px;
+    padding: 5px;
+    border: none;
+    border-bottom: 3px rgb(240, 175, 36) solid;
+    background-color: rgb(201, 201, 201);
+    outline: none;
+    color: rgb(70, 69, 69);
+}
+
+input:focus{
+    background-color: rgb(233, 233, 233);
+}
+
+.container{ 
+    text-align: center;
+    height: 100vh;
+    background: rgb(15, 15, 15,0.4);
+}
+
+section{
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 10px;
+    text-shadow: 2px 8px rgb(15, 15, 15,0.6);
+
+}
+
+#city{
+    font-size: 45px;
+}
+
+#date{
+    font-size: 20px;
+}
+
+#weather-type{
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 2px 2px rgb(15, 15, 15,0.6);
+}
+
+#temprature{
+    text-shadow: 2px 2px rgb(15, 15, 15,0.6);
+
+}
