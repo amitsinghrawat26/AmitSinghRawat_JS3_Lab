@@ -13,14 +13,14 @@ body{
 input{
     margin-top: 7%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 12px 0px 12px 0px;
     padding: 5px;
     border: none;
-    border-bottom: 3px rgb(240, 175, 36) solid;
-    background-color: rgb(201, 201, 201);
+    border-bottom: 3px rgb(221, 164, 41) solid;
+    background-color: rgb(185, 185, 185);
     outline: none;
-    color: rgb(70, 69, 69);
+    color: rgb(80, 79, 79);
 }
 
 input:focus{

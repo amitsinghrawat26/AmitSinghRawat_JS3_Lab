@@ -34,14 +34,14 @@ function callWeatherApi(cityName) {
 
 function showResults(result) {
     city.innerText = `${result.name}, ${result.sys.country}`
-    temprature.innerText = `${Math.round(result.main.temp)} °c`
+    temprature.innerText = `${Math.round(result.main.temp)}°c`
     date.innerText = findDate();
     weather_type.innerText = `${result.weather[0].main}`;
-    min_max.innerHTML = `${Math.round(result.main.temp_min)} °c / ${Math.round(result.main.temp_max)} °c`
+    min_max.innerHTML = `${Math.round(result.main.temp_min)}°c / ${Math.round(result.main.temp_max)}°c`
 }
 
 function findDate() {
-    let months = ["January", "Februray", "March","April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    let months = ["January", "Februray", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     let days = ["Sunday", "Monday", "Tuesday", "Webnesday", "Thursday", "Friday", "Saturday"]
     let currDate = new Date();
     return `${days[currDate.getDay() - 1]} ${currDate.getDate()} ${months[currDate.getMonth()]} ${currDate.getFullYear()}`
